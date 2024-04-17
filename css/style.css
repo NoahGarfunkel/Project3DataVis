@@ -1,56 +1,5 @@
-#my-map {
-  width: 1024px;  /* Adjust width based on the size of the map tiles */
-  height: 800px; /* Adjust height based on the size of the map tiles */
-}
-
-#tooltip {
-  position: absolute;
-  opacity: 0;
-  background: #fff;
-  box-shadow: 2px 2px 3px 0px rgb(92 92 92 / 0.5);
-  border: 1px solid #ddd;
-  font-size: 15px;
-  font-weight: 600;
-  text-align: left;
-  padding: 2px 8px;
-}
-.tooltip-label {
-  font-weight: 500;
-  font-size: 10px;
-  color: #888;
-}
-
-body {
-  font-family: Georgia, serif;
-  background-color: #f4f0ec;
-}
-
-p { 
+.summary {
   text-align: center;
-}
-
-button {
-  background-color: #C9E3AC;
-  border-radius: 10px;
-  cursor: pointer;
-  font-family: Georgia, serif;
-  margin-bottom: 20px;
-  padding: 5px;
-}
-
-/* .barchart {
-  margin-left: 30px;
-  margin-top: 30px;
-  padding-top: 20px;
-} */
-
-.chart-area {
-  fill: #e9eff5;
-}
-.chart-line {
-  fill: none;
-  stroke: #517390;
-  stroke-width: 2px;
 }
 
 .header {
@@ -62,41 +11,4 @@ button {
 }
 .header p {
   margin: 10px;
-}
-.centered_element {
-  text-align: center;
-  font-size: 20px;
-}
-
-/* Container for flexboxes */
-.row {
-  display: -webkit-flex;
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.column.side {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background-color: #f4f0ec;
-}
-
-.column.middle {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: #f4f0ec;
-}
-
-.column.half {
-  -webkit-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
-  background-color: #f4f0ec;
-}
-
-#timeline {
-  overflow: visible; 
-  text-align: center;
 }
